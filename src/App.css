@@ -1,0 +1,11 @@
+/* ./src/main.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* HomePage.vue */
+.home {
+    background-color: rgb(30, 30, 30);
+}
+
