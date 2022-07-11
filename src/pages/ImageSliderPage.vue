@@ -1,6 +1,8 @@
 <template>
-  <div class="home w-full h-screen border-8">
-    <ImageSlider />
+  <div class="home w-full h-screen">
+    <div class="flex items-center justify-center">
+      <ImageSlider />
+    </div>
   </div>
 </template>
 <script>

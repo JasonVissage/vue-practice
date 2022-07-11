@@ -1,30 +1,15 @@
 <template>
-  <div class="nav">
-    <div class="">
-      <ul class="flex justify-between">
-        <li class="m-3 inline">
-          <router-link class="text-white" to="/">Home</router-link>
-        </li>
-        <li class="m-3 inline">
-          <router-link class="text-white" to="/backgroundimage">
-            Background Image Page</router-link
-          >
-        </li>
-        <li class="m-3 inline">
-          <router-link class="text-white" to="/imagesliderpage">
-            Image Slider Page</router-link
-          >
-        </li>
-      </ul>
-      <router-view></router-view>
-    </div>
-  </div>
+  <NavbarComponent />
 </template>
 
 <script>
+import NavbarComponent from "./components/NavbarComponent.vue";
+
 export default {
   name: "App",
-  components: {},
+  components: {
+    NavbarComponent,
+  },
 };
 </script>
 

@@ -1,15 +1,17 @@
 <template>
   <div class="home w-full h-screen">
-    <BackgroundImage />
+    <div class="flex items-center justify-center">
+      <InfoCards />
+    </div>
   </div>
 </template>
 <script>
-import BackgroundImage from "../components/BackgroundImage.vue";
+import InfoCards from "../components/InfoCards.vue";
 
 export default {
   name: "HomePage",
   components: {
-    BackgroundImage,
+    InfoCards,
   },
 };
 </script>

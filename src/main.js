@@ -4,6 +4,7 @@ import App from './App.vue'
 import Home from './pages/HomePage.vue'
 import BackgroundImage from './pages/BackgroundImagePage.vue'
 import ImageSliderPage from './pages/ImageSliderPage.vue';
+import InfoCardsPage from './pages/InfoCardsPage.vue';
 import './App.css'
 
 const router = createRouter( {
@@ -12,6 +13,7 @@ const router = createRouter( {
         {path: '/', name: 'Home', component: Home}, 
         {path: '/backgroundimage', name: 'BackgroundImage', component: BackgroundImage}, 
         {path: '/imagesliderpage', name: 'ImageSlider', component: ImageSliderPage}, 
+        {path: '/infocards', name: 'InfoCards', component: InfoCardsPage}, 
     ]
 })
 

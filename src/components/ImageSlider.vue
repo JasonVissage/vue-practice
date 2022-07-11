@@ -1,6 +1,8 @@
 <template>
-  <div class="flex justify-center relative">
-    <div class="flex items-center absolute object-scale-down h-48 w-96">
+  <div class="flex w-full h-screen justify-center items-center">
+    <div
+      class="flex items-center justify-center absolute object-scale-down h-48 w-96"
+    >
       <transition-group name="fade" tag="div">
         <div class="" v-for="i in [currentIndex]" :key="i">
           <img class="" :src="currentImg" />
