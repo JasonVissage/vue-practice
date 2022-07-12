@@ -1,16 +1,36 @@
 <template>
-  <div class="w-full h-screen">
-    <h1 class="text-white text-xl flex justify-center">Vue Practice</h1>
-    <p class="text-white flex items-center justify-center">
-      This is a collection of vue components built as practice.
-    </p>
+  <div class="flipcard">
+    <p class="text-white">Hello World</p>
+    <InfoCard
+      :frontType="text"
+      :frontTitle="front.title"
+      :frontData="front.message"
+      :backTitle="back.title"
+      :backData="back.message"
+    />
   </div>
 </template>
 
 <script>
+import InfoCard from "vue-info-card";
+
 export default {
   name: "FlipCard",
-  components: {},
+  components: {
+    InfoCard,
+  },
+  data() {
+    return {
+      front: {
+        title: "Daily Conversion Value",
+        message: "This is the front body",
+      },
+      back: {
+        title: "Monthly Summary",
+        message:
+          "Your average daily conversion value for this month is <b>50.4$</b>. It is below the average of the last six months.",
+      },
+    };
+  },
 };
 </script>
-<style></style>
