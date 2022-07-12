@@ -9,7 +9,7 @@
 import InfoCards from "../components/InfoCards.vue";
 
 export default {
-  name: "HomePage",
+  name: "InfoCardsPage",
   components: {
     InfoCards,
   },

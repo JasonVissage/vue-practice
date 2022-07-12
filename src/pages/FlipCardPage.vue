@@ -1,17 +1,17 @@
 <template>
   <div class="home w-full h-screen">
     <div class="flex items-center justify-center">
-      <ImageSlider />
+      <FlipCard />
     </div>
   </div>
 </template>
 <script>
-import ImageSlider from "../components/ImageSlider.vue";
+import FlipCard from "../components/FlipCard.vue";
 
 export default {
-  name: "ImageSliderPage",
+  name: "FlipCardPage",
   components: {
-    ImageSlider,
+    FlipCard,
   },
 };
 </script>

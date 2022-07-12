@@ -4,11 +4,13 @@
     <p class="text-white flex items-center justify-center">
       This is a collection of vue components built as practice.
     </p>
+    <p class="text-black">Not white text</p>
   </div>
 </template>
+
 <script>
 export default {
-  name: "HomePage",
+  name: "FlipCard",
   components: {},
 };
 </script>

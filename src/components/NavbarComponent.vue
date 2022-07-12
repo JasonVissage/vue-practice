@@ -21,6 +21,11 @@
               >Info Cards</router-link
             >
           </li>
+          <li class="m-3 inline">
+            <router-link class="text-white" to="/flipcard"
+              >Flip Cards</router-link
+            >
+          </li>
         </ul>
         <router-view></router-view>
       </div>

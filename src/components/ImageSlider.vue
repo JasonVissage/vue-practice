@@ -1,19 +1,15 @@
 <template>
   <div class="flex w-full h-screen justify-center items-center">
-    <div
-      class="flex items-center justify-center absolute object-scale-down h-48 w-96"
-    >
+    <div class="flex items-center w-1/2 h-2/6 justify-center absolute">
       <transition-group name="fade" tag="div">
         <div class="" v-for="i in [currentIndex]" :key="i">
-          <img class="" :src="currentImg" />
+          <img class="rounded-md border-4 border-green-500" :src="currentImg" />
         </div>
       </transition-group>
       <div class="flex justify-between absolute w-full">
-        <a class="ml-2 prev text-white" @click="prev" href="#"
-          >&#10094; Previous</a
-        >
+        <a class="ml-2 prev text-white" @click="prev" href="#">&#10094;</a>
 
-        <a class="mr-2 next text-white" @click="next" href="#">Next &#10095;</a>
+        <a class="mr-2 next text-white" @click="next" href="#">&#10095;</a>
       </div>
     </div>
   </div>
