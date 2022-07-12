@@ -6,7 +6,7 @@
   </div>
 </template>
 <script>
-import FlipCard from "../components/FlipCard.vue";
+import FlipCard from "../components/FlipCard";
 
 export default {
   name: "FlipCardPage",
