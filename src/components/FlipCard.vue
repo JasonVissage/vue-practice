@@ -1,6 +1,6 @@
 <template>
   <div class="flipcard">
-    <p class="text-white">Hello World</p>
+    <p class="">Hello World</p>
     <InfoCard
       :frontType="text"
       :frontTitle="front.title"
