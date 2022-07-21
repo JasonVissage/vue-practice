@@ -1,6 +1,6 @@
 <template>
   <div class="w-60 h-80 relative">
-    <div class="card w-full h-full border rounded absolute">
+    <div class="card w-full h-full transition border rounded absolute">
       <div class="front text-center absolute w-full h-full bg-gray-500">
         <img
           class="h-1/2"
