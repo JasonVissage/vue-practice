@@ -4,35 +4,43 @@
       <div class="">
         <ul class="flex justify-between">
           <li class="m-3 inline">
-            <router-link class="text-white" to="/">Home</router-link>
+            <router-link class="text-white hover:underline" to="/"
+              >Home</router-link
+            >
           </li>
           <li class="m-3 inline">
-            <router-link class="text-white" to="/backgroundimage">
+            <router-link
+              class="text-white hover:underline"
+              to="/backgroundimage"
+            >
               Background Image Page</router-link
             >
           </li>
           <li class="m-3 inline">
-            <router-link class="text-white" to="/imagesliderpage">
+            <router-link
+              class="text-white hover:underline"
+              to="/imagesliderpage"
+            >
               Image Slider Page</router-link
             >
           </li>
           <li class="m-3 inline">
-            <router-link class="text-white" to="/infocards"
+            <router-link class="text-white hover:underline" to="/infocards"
               >Info Cards</router-link
             >
           </li>
           <li class="m-3 inline">
-            <router-link class="text-white" to="/flipcard"
+            <router-link class="text-white hover:underline" to="/flipcard"
               >Flip Cards</router-link
             >
           </li>
           <li class="m-3 inline">
-            <router-link class="text-white" to="/hamburgermenu"
+            <router-link class="text-white hover:underline" to="/hamburgermenu"
               >Hamburger Menu</router-link
             >
           </li>
           <li class="m-3 inline">
-            <router-link class="text-white" to="/gallerypage"
+            <router-link class="text-white hover:underline" to="/gallerypage"
               >Gallery Page</router-link
             >
           </li>
