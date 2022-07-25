@@ -33,12 +33,4 @@
   transform: rotateY(180deg);
 }
 
-/* Gallery Component */
-
-.gallery-image { 
-}
-
-.gallery-image:hover {
-  box-shadow: 2px 3px 5px grey;
-}
 
