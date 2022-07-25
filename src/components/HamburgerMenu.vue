@@ -9,6 +9,8 @@
     </button>
   </div> -->
 
+  <!-- https://larainfo.com/blogs/vue-3-responsive-navbar-menu-with-tailwind-css-example -->
+
   <div @click="toggleNav" class="flex md:hidden">
     <button
       type="button"
