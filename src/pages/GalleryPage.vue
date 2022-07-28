@@ -1,6 +1,8 @@
 <template>
-  <div class="home h-screen w-full">
-    <div>
+  <div class="home h-full w-full">
+    <div class="pb-6">
+      <GalleryComponent />
+      <GalleryComponent />
       <GalleryComponent />
     </div>
   </div>

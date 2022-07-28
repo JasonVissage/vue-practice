@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="nav">
+    <div class="nav px-4">
       <div class="">
         <ul class="flex justify-between">
           <li class="m-3 inline">

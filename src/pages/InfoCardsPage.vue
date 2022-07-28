@@ -1,6 +1,11 @@
 <template>
-  <div class="home w-full h-screen">
-    <div class="flex items-center justify-center">
+  <div class="home w-full h-full">
+    <div class="pb-6">
+      <InfoCards />
+      <InfoCards />
+      <InfoCards />
+      <InfoCards />
+      <InfoCards />
       <InfoCards />
     </div>
   </div>
